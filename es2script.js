@@ -25,3 +25,8 @@ const sum = userNumber + computerNumber;
 const sumKind = isEvenOrOdd(sum);
 
 //Dichiariamo chi ha vinto.
+if (sumKind === userChoice) {
+    console.log("Hai vinto!");
+} else {
+    console.log("Hai perso.");
+}
