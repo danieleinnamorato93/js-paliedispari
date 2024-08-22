@@ -12,10 +12,14 @@ function isEvenOrOdd(number) {
 }
 
 //Generiamo un numero random(sempre da 1 a 5) per il computer(usando una funzione).
+function generateRandomNumber() {
+    return Math.floor(Math.random() * 5) + 1;
+}
+const computerNumber = generateRandomNumber();
 
-const computerNumber = Math.floor(Math.random() * 5) + 1;
 
 //Sommiamo i due numeri
+const sum = userNumber + computerNumber;
 
 //Stabiliamo se la somma dei due numeri è pari o dispari(usando una funzione)
 
