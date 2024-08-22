@@ -22,5 +22,6 @@ const computerNumber = generateRandomNumber();
 const sum = userNumber + computerNumber;
 
 //Stabiliamo se la somma dei due numeri è pari o dispari(usando una funzione)
+const sumKind = isEvenOrOdd(sum);
 
 //Dichiariamo chi ha vinto.
