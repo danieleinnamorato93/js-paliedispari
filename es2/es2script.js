@@ -28,5 +28,5 @@ const sumKind = isEvenOrOdd(sum);
 if (sumKind === userChoice) {
     console.log("Hai vinto!");
 } else {
-    console.log("Hai perso.");
+    console.log("Mi dispiace, hai perso.");
 }
